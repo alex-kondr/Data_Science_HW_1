@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "data-science-hw-1"
+version = "0.1.0"
+description = ""
+authors = ["Oleksandr Kondratiuk <alex_kondr@outlook.com>"]
+readme = "README.md"
+packages = [{include = "data_science_hw_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
